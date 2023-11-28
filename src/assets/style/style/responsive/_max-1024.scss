@@ -1,0 +1,35 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 950px;
+  }
+  .headerSearch form .input {
+    width: 250px;
+  }
+  .headerLine {
+    .menu {
+      margin: 0 5px 0 35px;
+    }
+
+    .headerLogo {
+      max-width: calc(950px / 4 - 37px);
+
+      .logo .imgLogo {
+        max-width: 280px;
+        height: 70px;
+        min-width: 200px;
+        //margin-left: -25px;
+      }
+    }
+
+    .headerSearch {
+      width: calc(950px / 3 + 70px);
+      margin-right: 0;
+    }
+  }
+  .headerSearch form {
+    width: 380px;
+  }
+  .headerCtn {
+    margin-left: 0;
+  }
+}

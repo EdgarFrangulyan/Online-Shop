@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+//.wrapperAll {
+//  .headerFixed {
+//    padding-top: 180px;
+//  }
+//}
+
+html {
+  scroll-padding-top: 180px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1350px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 -15px;
+}
+
+a {
+  text-decoration: none;
+  color: #2B2D42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover {
+  color: #D10024;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+:root {
+  @import 'layouts/header';
+  @import 'layouts/footer';
+  @import 'layouts/singleProduct.scss';
+  @import 'layouts/notFound.scss';
+  @import 'layouts/cardCount.scss';
+  @import 'layouts/product.scss';
+  @import 'layouts/wrapper.scss';
+  @import 'layouts/category.scss';
+  @import 'layouts/adminHeader.scss';
+  @import 'layouts/likeProducts.scss';
+  @import 'layouts/cart';
+  @import 'layouts/update.scss';
+  @import 'layouts/wishlist';
+  @import 'sign-in-up/login';
+  @import 'sign-in-up/registration';
+  @import 'tiny-components/switchButton';
+  @import 'tiny-components/menu';
+  @import 'responsive/@media';
+}

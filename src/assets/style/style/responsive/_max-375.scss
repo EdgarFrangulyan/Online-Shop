@@ -1,0 +1,37 @@
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 350px;
+  }
+  .headerLine {
+    .headerSearch {
+      margin: 0 auto 0 40px;
+
+      form {
+        width: calc(375px / 1.5 + 90px);
+      }
+    }
+
+    .clearfix {
+      margin: 35px auto 0 95px;
+
+      .headerCtn {
+        > .likeCorner > .btnIcon > .qty.liked {
+          left: 135px;
+        }
+
+        > .cartCorner > .btnIcon > .qty.cart {
+          left: 214px;
+        }
+      }
+    }
+  }
+
+
+  ///////
+  .footerPayments li .paymentCards {
+    width: 173px;
+  }
+  .copyright {
+    width: 200px;
+  }
+}

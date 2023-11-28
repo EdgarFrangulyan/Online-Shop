@@ -1,0 +1,283 @@
+.spinnerLoad {
+  font-size: 20px;
+  height: 30px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .pages {
+    margin: 0 auto;
+    text-align: center;
+
+    .page {
+      .paginate {
+        display: flex;
+        margin: 0px 430px 8px;
+        .activePage{
+          border: 2px solid red;
+          background-color:  white;
+        }
+        .linkPage{
+        
+          color: red;
+         
+        }
+        li {
+          margin: 20px;
+         font-family: 'Courier New', Courier, monospace;
+          font-style: italic;
+          font-size: 21px;
+          border: none;
+          border-radius: 5px;
+          background: rgb(224, 240, 254);
+          color: black;
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
+
+.spL {
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.top {
+  position: fixed;
+  left: 35px;
+  bottom: 5%;
+  right: 7%;
+  padding: 4px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 350px;
+  font-size: 40px;
+}
+
+
+.btnChange {
+  :hover {
+    background-color: transparent;
+    // color: rgb(253, 251, 251);
+    transition: 0.4s;
+  }
+
+  .likeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: 0;
+  }
+
+  .addToCartButton {
+    position: absolute;
+    top: 450px;
+    background: aquamarine;
+    left: 35px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
+
+
+
+.cardStyle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(1350px - 15px);
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+  gap: 15px;
+
+  .cardItem {
+    position: relative;
+  }
+
+  .figure {
+    // height: 300px;
+    width: 300px;
+
+  
+
+    img {
+      width: 280px;
+      height: 280px;
+      max-width: max-content;
+      padding: 4px;
+      border-radius: 25px;
+      transition: all 0.6s;
+      border-radius: 25px;
+    }
+  }
+
+
+}
+
+.card {
+  max-width: calc(1200 / 4) * 1px;
+  display: flex;
+  box-shadow: 3px 0 6px #ccc;
+  max-height: 700px;
+  color: rgb(0, 4, 5);
+  height: 600px;
+  border-radius: 25px;
+
+  .desc {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+
+  .card-body>* {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .cart-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  button {
+  
+    padding: 5px;
+    background-color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+}
+
+.card:hover {
+  img {
+    transform: scale(1.05);
+    transition: transform 0.6s;
+    border-radius: 25px;
+  }
+}
+
+.buttons {
+  display: flex;
+}
+
+
+
+.carouseDiv {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 5px;
+}
+
+
+.nfpd {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+
+
+//payment 
+
+.payment {
+  button {
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    background-color: green;
+    color: rgb(244, 247, 244);
+  }
+
+  input {
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid rgb(206, 203, 203);
+  }
+
+
+}
+
+
+//admin
+.productMenu {
+  margin: 20px;
+
+  .bigContainer {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+
+    .mainContent {
+      margin: 50px;
+
+      input {
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 3px 0 15px rgb(102, 101, 101);
+        border: none;
+        border-radius: 5px;
+      }
+
+      .category {
+        margin-top: 100px;
+      }
+
+      button {
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 8px;
+        cursor: pointer;
+        background-color: rgb(251, 249, 249);
+        color: rgb(19, 19, 19);
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+.carousel {
+    cursor: pointer;
+    width: 450px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.slider-control-centerright:hover,
+.slider-control-centerleft:hover {
+    :hover {
+        color: black;
+        transition: 0.6s;
+    }
+}
+
+.slider-control-bottomcenter {
+    //   visibility: hidden;
+    font-size: 15px;
+}
+
+
+.singleCardStyle {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(1350px - 15px);
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 0 8px rgb(226, 224, 224);
+    border-radius: 10px;
+    //border: 1px solid green;
+    margin: 30px auto;
+.productBody{
+    .stars {
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.8s;
+        margin-top: 180px;
+        cursor: pointer;
+        
+      }
+}
+    img {
+        width: 450px;
+        height: 450px;
+        padding: 6px;
+        // transform: scale(1);
+        transition: all 0.4s;
+        border-radius: 25px;
+    }
+
+    .productBody {
+        margin: 50px 300px 0 0;
+        font-family: 'Courier New', Courier, monospace;
+
+p{
+    font-size: 20px;
+}
+        .productTitle {
+            max-width: max-content;
+            margin: 0 auto;
+            font-weight: 500;
+            font-style: italic;
+            color: #000;
+        }
+
+        .productText {
+            margin-bottom: 20px;
+        }
+
+        .productPrice {
+            color: rgb(9, 9, 9);
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+
+
+.singleCard {
+    max-width: 1350px;
+    display: flex;
+    gap: 15px;
+    color: rgb(0, 4, 5);
+    justify-content: space-between;
+}
+
+.paging-item {
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+}
+
+.plusButton,
+.minusButton {
+    padding: 5px 10px;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.cart-text span {
+    margin: 0 3px;
+}
+
+
+
+.cardStyleBottom {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1350px;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+
+    .slider-container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1350px;
+        width: 100%;
+    }
+
+    .cardItemBottom {
+        box-shadow: 2px 0 5px #ccc;
+        border-radius: 15px;
+        padding: 0;
+        margin: 0 auto;
+        font-family: 'Courier New', Courier, monospace;
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+
+
+        .desc {
+            height: 150px;
+            width: 300px;
+            line-height: 25px;
+
+        }
+    }
+}
+
+
+.simPr {
+    margin: 0 auto;
+
+    h2 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: 1px solid black;
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+}
+
+.btnAdd {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+
+    .addToCard {
+        // padding: 10px 20px;
+        position: absolute;
+        top: 60px;
+        font-size: 20px;
+        font-style: italic;
+        right: 30px;
+        box-shadow: 2px 0 15px #3d3d3d;
+        border-radius: 10px;
+        width: 230px;
+        height: 60px;
+        background-color: black;
+        color: white;
+    }
+
+    .addToWishList {
+        position: absolute;
+        top: 220px;
+        right: 30px;
+        box-shadow: 2px 0 15px #3d3d3d;
+        border-radius: 10px;
+        width: 230px;
+        height: 60px;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+.zoom{
+cursor: zoom-in;
+
+
+}

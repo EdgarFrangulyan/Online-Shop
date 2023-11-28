@@ -1,0 +1,64 @@
+.errorBlock {
+  font-family: 'Consolas', sans-serif;
+  //background: linear-gradient(0, #fff, rgba(244, 3, 31, 0.66));
+  padding: 50px 0;
+  max-width: max-content;
+  min-height: max-content;
+  margin: 0 auto;
+
+
+  //.errorSide {
+  //  position: relative;
+  //  //height: 60vh;
+  //  display: flex;
+  //  justify-content: center;
+  //  align-items: center;
+  //  user-select: none;
+  //
+  //  .errorNumbers {
+  //    font-size: 16em;
+  //    color: #fff;
+  //    text-shadow: 15px 15px 0 rgba(0, 0, 0, 0.1);
+  //
+  //    .number {
+  //      display: inline-block;
+  //    }
+  //  }
+  //}
+}
+
+.image {
+  //background-size: cover;
+  background: url("../../../../assets/img/404-error.gif") no-repeat center center;
+  margin: 0 auto 15px auto;
+  text-align: center;
+  padding: 445px 300px 16px 300px;
+  border: 4px double #000;
+  border-radius: 15px;
+}
+
+.bottomSide {
+  margin: 25px auto 10px auto;
+
+  .homeButtonStyle {
+    color: #000;
+    background: rgb(222, 223, 222);
+    padding: 15px 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 800;
+    margin: 0 auto;
+    transition: letter-spacing 0.4s;
+    user-select: none;
+
+    &:hover {
+      letter-spacing: 0.10em;
+    }
+  }
+}
+
+
+

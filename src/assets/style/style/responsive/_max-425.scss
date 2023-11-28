@@ -1,0 +1,102 @@
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 400px;
+  }
+  .headerLine {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .menu {
+      margin-left: -180px;
+    }
+
+    .headerSearch {
+      form {
+        width: 330px;
+
+        .searchBtn {
+          left: 225px;
+        }
+      }
+    }
+
+    .headerLogo {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .clearfix {
+      margin: 35px auto 0 125px;
+
+      .headerCtn > .likeCorner {
+        margin-left: -30px;
+      }
+
+      .headerCtn > .cartCorner > .btnIcon > .qty.cart,
+      .headerCtn > .likeCorner > .btnIcon > .qty.liked {
+        top: 140px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+      }
+
+      .headerCtn > .likeCorner > .btnIcon > .qty.liked {
+        left: 165px;
+      }
+
+      .headerCtn > .cartCorner > .btnIcon > .qty.cart {
+        top: 140px;
+        left: 242px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  #footer .row {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footer {
+    &:first-child {
+      margin: 0 auto 0 20px;
+    }
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      margin: 20px;
+    }
+
+    &:nth-child(3) {
+      margin-left: 20px;
+    }
+
+    .fourth {
+      margin: 25px auto 10px 0;
+    }
+  }
+
+  .footerPayments {
+    justify-content: center;
+    width: calc(380px / 1.5 + 60px);
+    margin-left: -20px;
+  }
+  .footerPayments li .paymentCards {
+    width: 168px;
+    height: 103px;
+    margin: 0 auto;
+    border-radius: 25px;
+  }
+  .copyright {
+    max-width: 290px;
+  }
+  .heart {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+  }
+}

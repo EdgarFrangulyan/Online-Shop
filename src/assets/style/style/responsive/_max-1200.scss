@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+  .headerLine {
+    justify-content: flex-start;
+
+    .menu {
+      margin: 0 20px 0 35px;
+    }
+
+    .headerLogo {
+      margin-right: 50px;
+    }
+
+    .headerSearch {
+      max-width: calc(1200px / 3 - 25px);
+      margin-right: 0;
+
+      form .input {
+        max-width: 250px;
+        min-width: 50px;
+      }
+    }
+  }
+  .headerCtn {
+    margin-left: 150px;
+  }
+  .btnIcon {
+    border: 0;
+  }
+  #footer .row {
+    justify-content: space-between;
+  }
+  .footer:first-child {
+    max-width: calc(1150px / 4 + 15px);
+    min-width: calc(1150px / 4 - 15px);
+    margin-right: 30px;
+  }
+  .footer:nth-child(2),
+  .footer:nth-child(3){
+    max-width: calc(1150px / 6 - 4px);
+    min-width: calc(1150px / 7 - 1px);
+  }
+  .footer:nth-child(4){
+    max-width: calc(1150px / 6 - 1px);
+    min-width: calc(1150px / 8 - 1px);
+  }
+}

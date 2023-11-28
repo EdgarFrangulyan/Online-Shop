@@ -1,0 +1,72 @@
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 420px;
+  }
+  .headerLine {
+    flex-direction: column;
+
+    .menu {
+      margin-left: 70px;
+    }
+
+    .headerLogo {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+
+      > .logo .imgLogo {
+        margin: -55px auto 0 35px;
+      }
+    }
+
+    .headerSearch {
+      width: 100%;
+      margin: 0 auto 0 75px;
+    }
+
+    .clearfix {
+      width: calc(100% / 2 + 10%);
+      margin: 35px auto 0 35px;
+
+      .headerCtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+      }
+
+      .headerCtn > .likeCorner > .btnIcon > .qty.liked {
+        top: 140px;
+        left: 180px;
+      }
+
+      .headerCtn > .cartCorner > .btnIcon > .qty.cart {
+        top: 140px;
+        left: 256px;
+      }
+    }
+  }
+
+
+  ///////
+  #footer .row {
+    justify-content: flex-start;
+  }
+  .footer:nth-child(2) {
+    margin: 20px auto 20px 50px;
+  }
+  .footer:nth-child(3) {
+    margin-left: 50px;
+  }
+  .footer.fourth {
+    margin: 20px auto 0 50px;
+  }
+  .footerPayments {
+    width: 450px;
+    //justify-content: space-evenly;
+    margin: 0 auto 0 -70px;
+  }
+  .footerPayments li .paymentCards {
+    width: 153px;
+  }
+}

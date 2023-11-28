@@ -1,0 +1,257 @@
+$ffmb: 'Montserrat/bold', sans-serif;
+$ffm: 'Montserrat', sans-serif;
+$ffr: 'Roboto', sans-serif;
+$ffks: 'Kaushan Script', sans-serif;
+
+
+.nav {
+  position: relative;
+  .childMenu{
+    :hover{
+      background: #dbf6ff;
+      border-radius: 5px;
+      color: rgb(13, 13, 13);
+      transition: 0.4s;
+    }
+    span{
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  .addCat{
+ 
+   input{
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin: 3px;
+    padding: 5px;
+    width: 150px;
+    box-shadow: 3px 0 6px #ccc;
+    background: #dbf6ff;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   button{
+
+    color: #000;
+    background: #dbf6ff;
+    box-shadow: 3px 0 6px #ccc;
+    padding: 4px 8px;
+    margin: 5px auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+  }
+}
+
+.bm-cross {
+  transition: all 0.5s !important;
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  right: inherit;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh !important;
+  transition: all 0.5s !important;
+
+}
+
+.bm-item-list {
+  margin: 0 auto;
+
+  .nav__list {
+    border-radius: 10px;
+    padding: 5px 0;
+    transition: all 0.5s !important;
+    display: flex;
+    list-style-type: none;
+    border: 0;
+    box-shadow: 3px 0 6px #ccc;
+    margin: 10px 0 10px -45px;
+    background: rgb(224, 240, 254);
+    color: black;
+
+    .nav__link {
+      color: #000;
+      font-family: 'Courier New', Courier, monospace
+    }
+  }
+}
+
+.childBtn {
+  color: #000;
+  background: #dbf6ff;
+  box-shadow: 3px 0 6px #ccc;
+  padding: 4px 8px;
+  margin: 5px auto;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bm-menu {
+  background: white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  height: 100vh !important;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: all 0.5s !important;
+  width: 250px;
+}
+
+.bm-morph-shape {
+  transition: all 0.5s !important;
+  fill: #373a47;
+}
+
+.bm-item-list {
+  transition: all 0.5s !important;
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.nav__list {
+  transition: all 0.5s !important;
+  display: flex;
+  list-style-type: none;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 10px 0 10px -45px;
+  background: #00f;
+
+ 
+  .nav__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    background: transparent;
+    border: 0;
+  }
+}
+
+.bm-overlay {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh !important;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transition: opacity 0.3s !important;
+}
+
+.react-burger-cross-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.modalDelete{
+  margin: 0 auto;
+  margin-top: 230px;
+height: 160px;
+width: 320px;
+box-shadow: 3px 0 6px #b3b1b1;
+border-radius: 10px;
+background-color: white;
+.modDiv{
+ margin: 0 auto;
+ button:hover{
+  background-color: rgb(62, 88, 49);
+ }
+}
+span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-style: italic;
+ // box-shadow: 3px 0 6px #b3b1b1;
+  margin: 25px;
+  text-align: center;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  padding: 5px;
+font-size: 25px;
+background-color: white;
+color: black;
+border: none;
+border-radius: 5px;
+box-shadow: 3px 0 6px #b3b1b1;
+margin: 50px;
+}
+}
+
+
+.modalCreate{
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 10px;
+height: 590px;
+width: 500px;
+box-shadow: 3px 0 6px #b3b1b1;
+border-radius: 10px;
+background-color: rgb(253, 253, 253);
+.modDiv{
+  display: flex;
+align-items: center;
+justify-content: center;
+ form{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+ :hover{
+  background-color: rgb(30, 85, 32);
+ }
+}
+span{
+  float: left;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 20px;
+}
+input{
+font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  width: 80%;
+  box-shadow: 3px 0 6px #b3b1b1;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 15px;
+  padding: 5px;
+}
+button{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+font-size: 25px;
+background-color: white;
+color: black;
+border: none;
+border-radius: 5px;
+box-shadow: 3px 0 6px #b3b1b1;
+}
+}
+}

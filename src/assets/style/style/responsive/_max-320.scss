@@ -1,0 +1,68 @@
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+  .headerLine {
+    .headerLogo {
+      .logo {
+        .imgLogo {
+          margin: -55px auto 0 5px;
+        }
+      }
+    }
+
+    .headerSearch {
+      margin: 0 auto 0 5px;
+
+      form {
+        width: calc(320px / 1.1 + 18px);
+      }
+    }
+
+    .clearfix {
+      .headerCtn {
+        margin-left: 36px;
+
+        .likeCorner {
+          margin-left: -95px;
+
+          > .btnIcon > .qty.liked {
+            left: 123px;
+          }
+        }
+
+        > .cartCorner > .btnIcon > .qty.cart {
+          left: 200px;
+        }
+      }
+    }
+  }
+  .footer {
+    &:first-child {
+      margin: 0;
+    }
+
+    &:nth-child(2) {
+      margin: 20px auto 10px 0;
+    }
+
+    &:nth-child(3) {
+      margin-left: 0;
+    }
+
+    &:nth-child(4) {
+      margin: 20px auto 0 0;
+    }
+  }
+
+  .footerPayments {
+    width: 320px;
+    margin: 0 auto 0 -70px;
+  }
+  .footerPayments li .paymentCards {
+    width: 175px;
+  }
+  .copyright {
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .headerLine {
+    position: relative;
+    justify-content: space-between;
+
+    .menu {
+      margin: 0 5px;
+    }
+
+    .headerLogo {
+      width: calc(720px / 4 - 1px);
+      margin: 0 5px 0 -11px;
+    }
+
+    .headerSearch {
+      max-width: calc(720px / 2 - 30px);
+      min-width: calc(720px / 2 - 60px);
+      //margin-right: -54px;
+    }
+
+    .headerLogo img {
+      width: 150px;
+      height: 65px;
+      margin: 0 -50px 0 -10px;
+    }
+
+    .headerSearch {
+      form {
+        width: 366px;
+
+        .input {
+          width: 200px;
+          margin-right: 25px;
+        }
+
+        .searchBtn {
+          width: 60px;
+          position: absolute;
+          left: 225px;
+        }
+      }
+    }
+
+    .headerCtn > .likeCorner {
+      margin-left: 30px;
+    }
+
+    .clearfix {
+      margin-left: -150px;
+    }
+
+    .btnIcon {
+      height: 0;
+
+      svg {
+        font-size: 36px;
+      }
+    }
+
+    .headerCtn > .likeCorner > .btnIcon > .qty.liked {
+      top: 3px;
+      left: 582px;
+    }
+
+    .headerCtn > .cartCorner > .btnIcon > .qty.cart {
+      top: 3px;
+      left: 649px;
+    }
+
+    .headerCtn > .cartCorner > .btnIcon > svg {
+      font-size: 36px;
+    }
+
+    .headerCtn > .cartCorner {
+      height: 50px;
+      display: flex;
+      margin: 0 0 0 -30px;
+    }
+  }
+
+  //footer
+
+  #footer .row {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 35px;
+  }
+  .footer {
+    max-width: 300px;
+    margin: 10px 0 25px 0;
+
+    &:nth-child(1) {
+      margin-right: 70px;
+    }
+  }
+  .footer:nth-child(2) {
+    //margin-left: 115px;
+  }
+  .footer:nth-child(3) {
+    margin: 0 210px 0 35px;
+  }
+  .footer:nth-child(4) {
+    margin: 0;
+  }
+  #bottomFooter .row {
+    flex-wrap: nowrap;
+  }
+  .footerPayments li .paymentCards {
+    width: 100px;
+    height: 57px;
+    font-size: 36px;
+    margin-right: 3px;
+  }
+  .footerPayments {
+    width: 575px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footerPayments li .paymentCards {
+    width: 170px;
+    height: 102px;
+  }
+  .footerPayments li {
+    margin: 0 5px 10px 0;
+  }
+  .footerPayments li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  .heart {
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+  }
+  .copyright {
+    max-width: 391px;
+    margin: 30px auto 10px;
+    text-align: -webkit-center;
+  }
+}
+
+

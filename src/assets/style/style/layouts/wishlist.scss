@@ -1,0 +1,149 @@
+.wishPanel {
+  padding: 50px 25px;
+  background: ghostwhite;
+  border-radius: 25% 75% 22% 78% / 73% 11% 89% 27%;
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px auto;
+  cursor: pointer;
+  user-select: none;
+  width: auto;
+  max-width: 660px;
+  box-shadow: 3px 0 20px rgb(171, 20, 189);
+  transition: box-shadow 0.3s linear, border 0.3s linear;
+
+  &:hover {
+    box-shadow: 3px 0 20px rgb(139, 4, 4);
+    //border: 2px solid rgb(220, 8, 8);
+  }
+
+  .wishPanelTitle {
+    font-weight: 700;
+    font-family: 'Consolas', sans-serif;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .wishPanelDesc {
+    //color: #7f1dc5;
+    max-width: 315px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .wishPanelButton {
+    background: #f00;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 0 auto;
+    transition: letter-spacing 0.4s;
+    user-select: none;
+    &:hover {
+      letter-spacing: 0.10em;
+    }
+  }
+}
+
+.spL {
+  margin: 0 auto;
+  height: calc(100vh / 2 - 1px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinnerLoad {
+  font-size: 15px;
+  height: 30px;
+}
+
+.emptyWishPanel {
+  padding: 60px 15px 0 15px;
+  display: flex;
+  border: 2px solid rgb(232, 118, 118);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px auto;
+  cursor: pointer;
+  border-radius: 25px;
+  user-select: none;
+  width: 500px;
+  height: 415px;
+  box-shadow: 3px 0 20px rgb(246, 33, 33);
+  transition: box-shadow 0.3s linear, border 0.3s linear;
+
+
+  .emptyWishPanelTitle {
+    margin: -100px auto 35px auto;
+    max-width: 300px;
+    color: #f00;
+    font-size: 42px;
+  }
+
+  .emptyWishPanelDesc {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 35px;
+  }
+
+  .emptyWishPanelButton {
+    background: #f00;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.4s;
+    border-radius: 10px;
+    transform: scale(1);
+
+    &:hover {
+      animation: pulse 1.11s linear infinite;
+    }
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

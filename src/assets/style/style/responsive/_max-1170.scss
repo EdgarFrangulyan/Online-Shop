@@ -1,0 +1,38 @@
+@media screen and (max-width: 1170px) {
+  .container {
+    max-width: 1100px;
+  }
+  .headerLine {
+    .menu {
+      margin: 0 35px;
+    }
+
+    .headerLogo {
+      margin-right: 50px;
+    }
+
+    .headerSearch {
+      position: relative;
+      margin-right: 60px;
+
+      form .searchBtn {
+        //position: absolute;
+        //top: 15px;
+        //right: 0;
+      }
+    }
+  }
+  .btnIcon {
+    background: transparent;
+  }
+  .headerCtn {
+    margin-left: 0;
+  }
+
+
+  .footer:first-child,
+  .footer:nth-child(3),
+  .footer:nth-child(2) {
+    margin-right: 0;
+  }
+}

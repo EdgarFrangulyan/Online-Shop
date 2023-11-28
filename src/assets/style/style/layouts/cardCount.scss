@@ -1,0 +1,72 @@
+/*
+
+
+.cardItemStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    .col{
+display: flex;
+justify-content: center;
+    }
+}
+.cardItem{
+    width: 1350px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  .col{
+    img{
+        width: 250px;
+        height: 250px;
+    }
+  }
+}
+
+*/
+
+
+
+.table {
+    
+table {
+    display: flex;
+    width: 1350px;
+    height: 160px;
+
+    tbody {
+        align-items: center;
+        display: flex;
+
+
+        td {
+            width: 1350px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    button {
+        font-size: 25px;
+        margin: 5px;
+        padding: 0px 5px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+    }
+}
+}
